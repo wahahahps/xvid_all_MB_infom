@@ -1,0 +1,6 @@
+20150430
+The output of decoder contains all kinds of macroblock (only luminace blocks are considered) compared with version 1.
+
+The old version before 20150430 can be obtained by inserting comments to in code line before 20150430.
+
+If you want to output the information about macroblock type, motion vector and absolute summation of motion residual, you should modify some codes especially for motion residual. 
